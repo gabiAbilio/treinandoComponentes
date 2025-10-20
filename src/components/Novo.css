@@ -1,0 +1,57 @@
+body{
+
+  margin: 0 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif; 
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+  
+  
+}
+
+.Conteudo{
+
+    border: 2px solid black;
+    width: 50%;
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px #555555 ;  /* Sombra para dar profundidade */
+
+ 
+}
+
+.Conteudo:hover {
+  transform: translateY(-10px);  /* Levanta o conteúdo quando passa o mouse */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.linha{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: 20px;
+}
+
+p{
+    color: black;
+ 
+}
+
+img{
+
+    border-radius: 8px;
+    width: 270px;
+    height: 250px;
+    object-fit: cover; /* Manter a proporção da imagem */
+    transition: transform 0.3s ease;  /* Adicionando transição ao hover */
+}
+
+img:hover {
+  transform: scale(1.05);  /* Efeito de zoom nas imagens */
+}
