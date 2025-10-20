@@ -40,6 +40,8 @@ body{
 
 p{
     color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
  
 }
 
@@ -51,6 +53,11 @@ img{
     object-fit: cover; /* Manter a proporção da imagem */
     transition: transform 0.3s ease;  /* Adicionando transição ao hover */
 }
+
+h1{
+  color: #3f3f3f;
+}
+
 
 img:hover {
   transform: scale(1.05);  /* Efeito de zoom nas imagens */
